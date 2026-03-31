@@ -45,6 +45,9 @@ Production code cannot live in a single, monolithic `main.tf` file. It needs to 
 ```
 *(Note: For complete usage instructions, inputs, and outputs of the module itself, you can check out the `README.md` in the repository's module folder!)*
 
+[Github](https://github.com/Vivixell/aws-blue-green-infra)
+
+
 ---
 
 ### Step-by-Step Refactoring Guide
