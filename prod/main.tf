@@ -32,6 +32,7 @@ module "webserver" {
   # Capacity for the INACTIVE environment. 
   # Currently set to match active for testing/rollback readiness.
   # Change min, max, and desired to 0 to safely scale down and save costs.
+  
   inactive_capacity = {
     min     = 0 #2 but I'm currently scaling to zero as I've switched active environment to green and want to save costs while I test/validate the new environment.
     max     = 6
